@@ -8,7 +8,7 @@ curl -fsSL https://pi.dev/install.sh | sh
 
 ## 全局配置（`~/.pi/agent/settings.json`）
 
-基本默认，只有模型/思考等级/主题默认值和扩展列表。
+大部分保持默认，只改了模型、思考等级、主题这几个默认值，加上扩展列表。
 
 ```json
 {
@@ -25,7 +25,7 @@ curl -fsSL https://pi.dev/install.sh | sh
 }
 ```
 
-provider 地址和 API key 或者登录信息在 `~/.pi/agent/models.json`，不在这个文件里，且禁止提交到仓库。
+provider 地址、API key 和登录信息都在 `~/.pi/agent/models.json`，不在这个文件里，那个文件一律不进仓库。
 
 ## 扩展
 
